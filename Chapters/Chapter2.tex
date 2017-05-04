@@ -1,0 +1,246 @@
+% Chapter Template
+
+\chapter{Theoretical Foundations} % Main chapter title
+
+\label{Chapter2} % Change X to a consecutive number; for referencing this chapter elsewhere, use \ref{ChapterX}
+
+The first step in answering my research question, "How to achieve lifelong learning, adaptation, and adjustability for personalized Human-Robot Interaction?", was to do a research on the Human-Human interaction literature.
+
+In this chapter I will present the theories in which this work is based. This is of great importance in aim of the thesis question in order to integrate different paradigms in a robotic system, which is intended to interact with people in their everyday life.
+
+I will begin by examining the most known Behavior Theories, which have been proposed by the psychology field by many years so far. I then explain the Personality Theories. As there are many models in the literature about personality traits, I chosed the Big Five Personality Trait. I will explain each of these topics, arguing that these theories and model were the most suitable approach to provide answers to my research question. 
+
+After explaining the models of personality, I will describe the Social Cognitive Theory, and how this helped to define the different parts of our framework.
+
+I will follow by briefly explaining the main Emotion Theories, describing the Non-Cognitive Theories and the Cognitive Theories, arguing that the Cognitive approach is more suitable for the purpose of this work. This decision leads to another decision, about the cognitive emotion model to use, I chosed the OCC Model, which I will describe, as well as the reason why I used this specific model.
+
+Also, another topic of vital importance for a system of lifelong learning is the memory system, for which I will mention the diferent kinds of memory that are known. I then will focus on the Episodic Memory to explain how it works and why I used this memory on the proposed framework. 
+
+%----------------------------------------------------------------------------------------
+%	SECTION 2.1
+%----------------------------------------------------------------------------------------
+
+\section{Behavior Theories}
+
+The aim of this work is to create a framework to achieve a longterm Human-Robot interaction. For this reason, the robot would have to adapt to its users. Nevertheless, the human nature presents differences between one individual to another. Each person has different preferences, then, a robotic behavior that can be seem as a good behavior for one person, can be seen as a bad behavior for another person. 
+
+As social entities, we tend to treat computers and other medias as if they were also social entities, as stated by Reeves and Nass in the Media Equation (\cite{reeves1997media}). In certain ocassions we talk to computers even if they do not understand us. This happens because of our need to communicate in a natural way. This would be accentuated by robots who have a body and can talk to us. Then, if we want to achieve a natural interaction between humans and robots, we should need to base our work on the study of human behavior.
+
+The problem of understanding human behavior have been studied for many years by the field of Psychology. One of the first attempts to explain human behavior was done by Freud, in his the psychoanalysis theory and his studies on the unconscious (\cite{freud1915unconscious}), Freud compare the mind as an iceberg, where in the surface is the conscious mind, below of that is found the preconscious, which are the thoughts that can be retrieved by memory, and finally, the biggest region is the unconscious mind, where are found all our internal desires and primitive wishes, which govern our basic behavior.
+
+Another theory of human behavior, called behaviorism, was developed by John Watson in his article ''Psychology as behaviorist views it" (\cite{watson1913psychology}). This theory, rejects the idea of the consciousness and focus on observable behavior, which can be measureable in an objective way.
+
+Behaviorism was detracted by other researchers, who stated that using experiments with humans creates an artificial environment and low ecological validity, this approach is called Humanistic psychology, which also states that humans can make their own decisions and do not follow a deterministic approach (\cite{rogers1963toward}). 
+
+Gordon Allport was one of the first psychologists who developed a personality trait theory (\cite{allport1937personality}). This approach states that a person can be described by terms called traits. A trait can be seen as a behavior pattern that keeps constant through space and time. The combination of different traits and the different degrees of these, is what gives to an individual an specific personality. I will describe this theory in section \ref{sub:personality-trait-theory}
+
+Other grand theory of human behavior is the Cognitivism theory, also called Social Cognitive Theory, was developed by Albert Bandura (\cite{bandura1989human}), this theory focuses on the mental process of learning and and the dynamic interplay between person, behavior and environment. I will explain this theory in more detail in the section \ref{sub:social-cognitive-theory}.
+
+%----------------------------------------------------------------------------------------
+%	SECTION 2.1.1
+%----------------------------------------------------------------------------------------
+
+\subsection{Personality Trait Theories}
+\label{sub:personality-trait-theory}
+
+We decided to focus on this group of theories because it gives a categorization of different kinds of personalities, and at the same time provides a differentiation between individuals. Also, this has been widely studied before in the field of Human-Computer Interaction (HCI), in order to provide with personality to virtual agents (e.g. \cite{andre2000exploiting}, \cite{allbeck2002toward}, \cite{egges2004generic}). In social robotics, this has been also a topic of interest to provide robots with a personality that best fit with their users (e.g. \cite{woods2005robot}, \cite{tapus2008user}, \cite{hendriks2011robot}).
+
+The personality trait theory has evolved with the pass of the years. I will briefly explain some of the most recognized theories in this domain.
+
+One of the first models of personality traits, is the Gordon Allport’s Trait Theory, this theory classify the traits in three classes: Cardinal traits, Central traits, and Secondary traits. According with this theory, Cardinal traits are the traits that are developed by a person (i.e. kindness, greedy, honesty).  Central traits are seen as common to all people and we have different degrees of them (i.e. friendliness, generosity, anxiety). Secondary traits are considered to be related with attitudes or preferences and only appear under certain situations. The total number of traits was of over 4000.
+
+Eysenck proposed a model of only 3 personality trait (\cite{eysenck1953structure}): Introversion/Extroversion, Neuroticism/Emotional stability, and Psychoticism. This model was critized for using a small sample and only self reporting as source.
+
+Raymond Cattell reducted the number of traits from 4000 to 16 using factor analysis using different sources, he also developed a questionnaire to measure these 16 traits, called the Sixteen Personality Factor Questionnaire (16PF, \cite{cattell1957personality}). 
+
+A model emerged from these previous ones, called The Five Factor Theory of Personality, also called the Big Five personality trait. This model has 5 traits: Extroversion, Neuroticism, Agreeableness, Conscientiousness, and Openness. I will describe this model in more detail in the following section.
+
+%--------------------------------------------------------------------------------------
+%	Section
+%----------------------------------------------------------------------------------------
+
+\subsubsection{Big Five Personality Trait}
+
+The first researcher who argued the existence of 5 traits of personality was Fiske (\cite{fiske1949consistency}), after that, a number of researchers have converged to the existence of 5 orthogonal factors (\cite{norman1963toward}, \cite{goldberg1993structure}, \cite{digman1996curious}). Even when there is no general concensous on a definitive theory of personality, this theory is the more accepted in the contemporary literature.
+
+Researchers, who defend this theory, state that any reasonable large sample of English trait adjectives will elicit a variant of the Big Five factor structure, and then, all such terms can be represented within this model. It is important to note that each trait can be seen as a dimension, each dimension has to facets, and each facet represent a group of adjectives. An example of the uniqueness of a personality, conformed by the five traits of this model, can be seen in Fig. \ref{fig:big-5-theory}.
+
+\begin{figure}[]
+\centering
+	\includegraphics[width=4in]{big-5-theory}
+    \caption{Big Five Personality Trait}
+\label{fig:big-5-theory}
+\end{figure}
+
+This model is also sometimes called OCEAN by the initials of the traits. In the following I will list some of the adjectives grouped on each trait.
+
+\begin{itemize}
+\item Openness (Intellect):
+	\begin{itemize}
+	    \item High Openness: Intellectuallity, depth, insight, intelligence, creativity, curiosity, sophistication.
+	    \item Low Openness: Shallowness, unimagitiveness, imperceptiveness, stupidity.
+	\end{itemize}
+\item Conscientiousness:
+	\begin{itemize}
+	    \item High Conscientiousness: Organization, efficienty, dependability, precision, persistence, caution, punctuallity, Decisiveness.
+	    \item Low Conscientiousness: Desorganization, negligence, inconsistency, forgetfulness, indecisiveness. 
+	\end{itemize}
+\item Extroversion (Surgency):
+	\begin{itemize}
+	    \item High Extroversion (Extroversion): Playfulness, expressiveness, spontaneity, talkativeness, animation, courage, optimism.
+	    \item Low Extroversion (Introversion): Silence, reserve, shyness, inhibition, passivity, lethargy, pessimism.
+	\end{itemize}
+\item Agreeableness:
+	\begin{itemize}
+	    \item High Agreeableness: Cooperation, amability, empathy, generosity, courtesy, flexibility, modesty.
+	    \item Low Agreeableness: Belligerence, bossiness, cruelty, pomposity, irritability, prejudice, volatility.
+	\end{itemize}
+\item Neuroticism (Emotional Stability):
+	\begin{itemize}
+	    \item High Neuroticism: Insecurity, fear, instability, emotionallity, envy, gullibility, intrusiveness.
+	    \item Low Neuroticism: Placidity, independece.
+	\end{itemize}
+\end{itemize}
+
+A self-reported questionnaire, to measure the five personality traits of this model, was proposed by John and Srivastava, which consited of 44 items in a likert scale from 1-5 (\cite{john1999big}), such questionnaire has been used (or modifications of this) to perform numerous experiments on personality traits in social sciences and also in social robotics.
+
+%----------------------------------------------------------------------------------------
+%	SECTION 2.1.2
+%----------------------------------------------------------------------------------------
+
+\subsection{Social Cognitive Theory}
+\label{sub:social-cognitive-theory}
+
+In the last section, I described the personality traits theories, which explain the differences and similitudes between different individuals. Nevertheless, these theories do not explain how this differences are generated. For this reason, we include a theory that attemps to give a reason of the differences on behaviors between individuals.
+
+This theory sees the human development as a life-long process, where diversity in social practices produces substancial individual differences in the developed capabilities and the ones that remain underdeveloped (\cite{bandura2011social}).
+
+Social Cognitive Theory presents a model of a triadic reciprocal determinism (see Fig. \ref{fig:bandura-theory}), where cognition and other personal factors, behavior, and environment, all influences each other bidirectionally, operating as interacting determinants. This interactions can have different strenghts, and occur in different times. 
+
+\begin{figure}[]
+\centering
+	\includegraphics[width=4in]{bandura-theory}
+    \caption{Triadic reciprocal determinism}
+\label{fig:bandura-theory}
+\end{figure}
+
+Persons are characterized in terms of basic capabilities, which are mentioned below:
+
+\begin{itemize}
+\item Symbolizing Capability: Humans have the capacity to process external information thanks to the capacity to use symbols. Cognitive factors partly determine in which events we will focus, the related meaning and emotional impact, and how we will organize and use this information on the future.
+
+\item Specialized Cognitive Competencies: Different domains of activity have different structures. Social factors play an influencial role in cognitive development, because of the rapid growth of knowledege, human acquisition of specialized cognitive competencies relies on modeled expertise. 
+
+\item Vicarious Capability (Observational learning): Much social learning occurs by observing the behavior of others and the consequences for them.
+
+\item Forethought capability: People not simply react to their immediate environment, nor are restricted by past experiences. Most human behavior, is regulated by forethought. People motivates themselves and guide their actions anticipatorily.
+
+\item Self-regulatory Capability: Sucessful socialization requires the presence of internal controls and direction. People possess self directive capabilities that give them some control over their thoughts, feelings, and actions.
+
+\item Self-reflective Capability: This capability allow humans to analyze their experiences and to think about their own thought processes. This characteristic acts like a mechanism of adaptation of the thoughts, judging the results of ideas and adequating the thoughts accordingly.
+
+\end{itemize}
+
+This theory, was of great help to integrate the elements of our framework for a robotic system in a social context, even if we don't create specific subsytems for each human capability of the model. For the symbolizing capability, we need a memory system wich also can be combined with the forethought capability, to learn from experiences and adapt the behavior of the robot in future actions. Also an emotion system linked with the memory system is of great importance. The specialized cognitive competences, can be represented by the different task the robot can do, also the information about each user personality and how to act accordingly. 
+
+In the following section I will explain some of the main theories of emotion and the one we used in our framework.
+
+
+%----------------------------------------------------------------------------------------
+%	SECTION 2.2
+%----------------------------------------------------------------------------------------
+
+\section{Emotion Theories}
+
+For many years, psychologists have been trying to decide what are the emotions and what are their roles, which remain as open questions until our days. Many theories of emotions has been proposed (For a review, see \cite{moors2009theories}), which can be grouped in two categories: Cognitive theories, and Non-Cognitive theories.
+ 
+
+%----------------------------------------------------------------------------------------
+%	SECTION 2.2.1
+%----------------------------------------------------------------------------------------
+
+\subsection{Non-Cognitive Theories  }
+
+This group of theories was first developed by two authors independentely, William James and Carl Lange (\cite{james1884emotion} , \cite{lange1885mechanism}). They stated that an emotional experience is a mental state of bodily response to external stimulus (i.e. "we feel afraid because our body trembles because of a bear"). Williams James considered the emotion as the feeling of the bodily changes that follow the perception of an exciting fact (see Fig.\ref{fig:james-langue}). Lange argued that if we remove of all the bodily sensations, there is nothing left of the emotion, only pure rational knowledge of the event that caused the emotion.
+
+\begin{figure}[]
+\centering
+	\includegraphics[width=4.6in]{non-cognitive}
+    \caption{James-Lange Theory}
+\label{fig:james-langue}
+\end{figure}
+
+Posteriorly, Paul Ekman developed what is considered the standar of the Non-Cognitive process of emotions. Ekman adopted an evolutionary point of view, where a group of six emotions (happiness, sadness, fear, anger, disgust, and surprise) that he called "basic emotions" (\cite{ekman1992argument}), evolved in response to ecological conditions, and each emotion is linked with a specific neurological circuit. Accordingly to Ekman, the characteristics which distinguis these basic emotions are: Distinctive universal signals, distinctive physiology, quick onset, automatic apraisal, brief duration, unbidden occurrence, distinctive thoughts, and distinctive subjective experience. Also, Ekman stated that each of these basic emotion can be distinguished by different facial expresions (\cite{ekman1979facial}).
+
+
+%----------------------------------------------------------------------------------------
+%	SECTION 2.2.2
+%----------------------------------------------------------------------------------------
+
+\subsection{Cognitive Theories }
+
+This group of theories states that emotions are a cognitive process. The precursors of this theories are Walter Cannon and Philip Bard, today known as Cannon-Bard Theory (see Fig.  \ref{fig:cannon-bard}). They stated that we feel emotions and experience physiological reactions at the same time. This theory emerged as a critic of the James-Lange Theory (\cite{cannon1927james}).
+Cannon proposed that emotions can be experienced even when physiological reactions are not present, and also that different emotions can present similar reactions (like increasing hearbeat in response to fear or anger).
+
+\begin{figure}[]
+\centering
+	\includegraphics[width=4.6in]{cannon-bard}
+    \caption{Cannon-Bard Theory}
+\label{fig:cannon-bard}
+\end{figure}
+
+Other cognitive theory is the Schachter-Singer Theory (also known as two-factor). This theory proposes that physiological arousal occurs first, but these reactions are often similar to different emotions, then such reactions should be cognitively labeled as a specific emotion (\cite{schachter1962cognitive}).
+
+Richard Lazarus proposed the Cognitive-Mediational Theory (\cite{lazarus1991emotion}), where the appraisal mediates between the stimulus and the emotional response  (see Fig. \ref{fig:lazarus}). This appraisal is the interpretation we give to a particular situation, it can be good or bad, and can be different in different people. Also, Lazarus, distiguish two types of appraisal: 1) primary appraisal, which try to give a meaning to an event, and 2) secondary appraisal, which is the ability to deal with the consequences of an event.
+
+\begin{figure}[]
+\centering
+	\includegraphics[width=4.6in]{lazarus}
+    \caption{Cognitive-Mediational Theory}
+\label{fig:lazarus}
+\end{figure}
+
+A contemporany theory is the one of Antonio Damasio, called by him the somatic marker hypothesis (\cite{damasio1996somatic}), he states that the emotion process starts with the perception of an stimulus, which provoques a cognitive evaluation, and this generates a bodily response, followed by a perception of a certain body activity (see Fig. \ref{fig:damasio}). Also, Damasio proposes a link between the cognitive evaluation and the perception of activity in the body, called as-if-loop (as if the body were active).
+
+\begin{figure}[]
+\centering
+	\includegraphics[width=4.6in]{damasio}
+    \caption{Damasio's Theory}
+\label{fig:damasio}
+\end{figure}
+
+
+%----------------------------------------------------------------------------------------
+%	SECTION 2.2.2.1
+%----------------------------------------------------------------------------------------
+
+\subsubsection{OCC Model}
+
+%-----------------------------------
+%	SECTION 2.3
+%-----------------------------------
+\section{Learning and Memory}
+
+Nunc posuere quam at lectus tristique eu ultrices augue venenatis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam erat volutpat. Vivamus sodales tortor eget quam adipiscing in vulputate ante ullamcorper. Sed eros ante, lacinia et sollicitudin et, aliquam sit amet augue. In hac habitasse platea dictumst.
+
+%----------------------------------------------------------------------------------------
+%	SECTION 2.3.1
+%----------------------------------------------------------------------------------------
+
+\subsection{Memory Types}
+
+%----------------------------------------------------------------------------------------
+%	SECTION 2.3.1.1
+%----------------------------------------------------------------------------------------
+
+\subsubsection{Episodic Memory}
+
+
+
+%----------------------------------------------------------------------------------------
+%	SECTION 3
+%----------------------------------------------------------------------------------------
+
+\section{Conclusion}
+
+Sed ullamcorper quam eu nisl interdum at interdum enim egestas. Aliquam placerat justo sed lectus lobortis ut porta nisl porttitor. Vestibulum mi dolor, lacinia molestie gravida at, tempus vitae ligula. Donec eget quam sapien, in viverra eros. Donec pellentesque justo a massa fringilla non vestibulum metus vestibulum. Vestibulum in orci quis felis tempor lacinia. Vivamus ornare ultrices facilisis. Ut hendrerit volutpat vulputate. Morbi condimentum venenatis augue, id porta ipsum vulputate in. Curabitur luctus tempus justo. Vestibulum risus lectus, adipiscing nec condimentum quis, condimentum nec nisl. Aliquam dictum sagittis velit sed iaculis. Morbi tristique augue sit amet nulla pulvinar id facilisis ligula mollis. Nam elit libero, tincidunt ut aliquam at, molestie in quam. Aenean rhoncus vehicula hendrerit.

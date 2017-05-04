@@ -1,0 +1,71 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\contentsline {chapter}{Declaration of Authorship}{iii}{section*.1}
+\contentsline {chapter}{Abstract}{vii}{section*.2}
+\contentsline {chapter}{Abstract Fr}{ix}{section*.3}
+\contentsline {chapter}{Acknowledgements}{xi}{section*.4}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.11}
+\contentsline {section}{\numberline {1.1}Companion Robots}{1}{section.12}
+\contentsline {section}{\numberline {1.2}Robot Adaptation in Human Robot Interaction}{1}{section.13}
+\contentsline {section}{\numberline {1.3}Motivation and Existing Problems}{1}{section.14}
+\contentsline {section}{\numberline {1.4}Major Contributions}{1}{section.15}
+\contentsline {section}{\numberline {1.5}Thesis organization}{2}{section.16}
+\contentsline {chapter}{\numberline {2}Theoretical Foundations}{3}{chapter.17}
+\contentsline {section}{\numberline {2.1}Behavior Theories}{4}{section.18}
+\contentsline {subsection}{\numberline {2.1.1}Personality Trait Theories}{5}{subsection.19}
+\contentsline {subsubsection}{Big Five Personality Trait}{6}{section*.20}
+\contentsline {subsection}{\numberline {2.1.2}Social Cognitive Theory}{7}{subsection.22}
+\contentsline {section}{\numberline {2.2}Emotion Theories}{9}{section.24}
+\contentsline {subsection}{\numberline {2.2.1}Non-Cognitive Theories }{9}{subsection.25}
+\contentsline {subsection}{\numberline {2.2.2}Cognitive Theories }{10}{subsection.27}
+\contentsline {subsubsection}{OCC Model}{11}{section*.31}
+\contentsline {section}{\numberline {2.3}Learning and Memory}{11}{section.32}
+\contentsline {subsection}{\numberline {2.3.1}Memory Types}{12}{subsection.33}
+\contentsline {subsubsection}{Episodic Memory}{12}{section*.34}
+\contentsline {section}{\numberline {2.4}Conclusion}{12}{section.35}
+\contentsline {chapter}{\numberline {3}State of the Art}{13}{chapter.36}
+\contentsline {section}{\numberline {3.1}Robots with personality}{13}{section.37}
+\contentsline {section}{\numberline {3.2}Robots showing emotions}{13}{section.38}
+\contentsline {section}{\numberline {3.3}Robots with Episodic-Memory}{13}{section.39}
+\contentsline {section}{\numberline {3.4}Conclusion and Horizon}{14}{section.40}
+\contentsline {chapter}{\numberline {4}Intregating a Framework for Human-Robot Interaction}{15}{chapter.41}
+\contentsline {section}{\numberline {4.1}Social Issues of Human-Robot Interaction}{15}{section.42}
+\contentsline {subsection}{\numberline {4.1.1}Social Facilitation}{15}{subsection.43}
+\contentsline {section}{\numberline {4.2}Choosing an Emotion Model for the Robot}{15}{section.44}
+\contentsline {section}{\numberline {4.3}Giving an Episodic-Memory to the Robot}{16}{section.45}
+\contentsline {section}{\numberline {4.4}Testing the Framework in a Game-Like Scenario}{16}{section.46}
+\contentsline {section}{\numberline {4.5}Contributions and Conclusion}{16}{section.47}
+\contentsline {chapter}{\numberline {5}Need of a User Pattern for a Personalized Interaction}{17}{chapter.48}
+\contentsline {section}{\numberline {5.1}Choosing a Personality Model}{17}{section.49}
+\contentsline {section}{\numberline {5.2}Differences between Introverts and Extroverts}{17}{section.50}
+\contentsline {section}{\numberline {5.3}Differences between People with High Conscientiousness and People with Low Conscientiousness}{18}{section.51}
+\contentsline {section}{\numberline {5.4}Study-Case: Office-Like Scenario with a Robot Giving Reminders}{18}{section.52}
+\contentsline {section}{\numberline {5.5}Contributions and Conclusion}{18}{section.53}
+\contentsline {chapter}{\numberline {6}Effects of Stress and Personality in Human-Robot Interaction}{19}{chapter.54}
+\contentsline {section}{\numberline {6.1}Robots Used for Teaching}{19}{section.55}
+\contentsline {section}{\numberline {6.2}Multimedia Learning}{19}{section.56}
+\contentsline {section}{\numberline {6.3}Neuroticism Trait Related with Learning}{19}{section.57}
+\contentsline {section}{\numberline {6.4}Study-Case: Teaching Nutrition by using Multimedia with a Robot}{20}{section.58}
+\contentsline {section}{\numberline {6.5}Contributions and Conclusion}{20}{section.59}
+\contentsline {chapter}{\numberline {7}Predicting Users Preferences using Personality and Gender}{21}{chapter.60}
+\contentsline {section}{\numberline {7.1}Similarity Atraction Theory}{21}{section.61}
+\contentsline {section}{\numberline {7.2}Complementary Needs Theory}{21}{section.62}
+\contentsline {section}{\numberline {7.3}Learning a Model of Users Preferences of Robot Behavior}{21}{section.63}
+\contentsline {subsection}{\numberline {7.3.1}Chosing the Features to Create the Model}{22}{subsection.64}
+\contentsline {subsection}{\numberline {7.3.2}Configuring the Episodic Memory}{22}{subsection.65}
+\contentsline {subsection}{\numberline {7.3.3}Adapting the OCC Model}{22}{subsection.66}
+\contentsline {section}{\numberline {7.4}Study-Case: Learning Users' Preferences and using them with New Users}{22}{section.67}
+\contentsline {section}{\numberline {7.5}Contributions and Conclusion}{23}{section.68}
+\contentsline {chapter}{\numberline {8}Conclusion}{25}{chapter.69}
+\contentsline {section}{\numberline {8.1}Our Contributions}{25}{section.70}
+\contentsline {subsection}{\numberline {8.1.1}A Framework for Human-Robot Interaction}{25}{subsection.71}
+\contentsline {section}{\numberline {8.2}Limits and Future Work}{25}{section.72}
+\contentsline {chapter}{\numberline {A}Evaluation Documents}{27}{appendix.73}
+\contentsline {section}{\numberline {A.1}Big Five Questionnaire}{27}{section.74}
+\contentsline {section}{\numberline {A.2}Game-Like Scenario Post-Questionnaire}{27}{section.75}
+\contentsline {section}{\numberline {A.3}Office-Like Scenario Post-Questionnaires}{27}{section.76}
+\contentsline {section}{\numberline {A.4}Multimedia Scenario Post-Questionnaire}{27}{section.77}
+\contentsline {section}{\numberline {A.5}Learning Users' Preferences Post-Questionnaire}{27}{section.78}
+\contentsline {chapter}{\numberline {B}Publications List}{29}{appendix.79}
+\contentsline {chapter}{Bibliography}{31}{appendix*.80}

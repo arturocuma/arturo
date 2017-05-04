@@ -1,0 +1,773 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 2.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{allbeck2002toward}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Allbeck}{A.}%
+     {Jan}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Badler}{B.}%
+     {Norman}{N.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{AJBN1}
+  \strng{fullhash}{AJBN1}
+  \field{labelyear}{2002}
+  \field{sortinit}{A}
+  \field{pages}{15\bibrangedash 19}
+  \field{title}{Toward representing agent behaviors modified by personality and
+  emotion}
+  \field{volume}{2}
+  \field{journaltitle}{Embodied Conversational Agents at AAMAS}
+  \field{year}{2002}
+\endentry
+
+\entry{allport1937personality}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Allport}{A.}%
+     {Gordon~Willard}{G.~W.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Holt New York}%
+  }
+  \strng{namehash}{AGW1}
+  \strng{fullhash}{AGW1}
+  \field{labelyear}{1937}
+  \field{sortinit}{A}
+  \field{title}{Personality}
+  \field{year}{1937}
+\endentry
+
+\entry{andre2000exploiting}{inproceedings}{}
+  \true{moreauthor}
+  \name{author}{5}{}{%
+    {{}%
+     {Andr{\'e}}{A.}%
+     {Elisabeth}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Klesen}{K.}%
+     {Martin}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gebhard}{G.}%
+     {Patrick}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Allen}{A.}%
+     {Steve}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Rist}{R.}%
+     {Thomas}{T.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{AE+1}
+  \strng{fullhash}{AEKMGPASRT+1}
+  \field{labelyear}{2000}
+  \field{sortinit}{A}
+  \field{booktitle}{Fourth International Conference on Autonomous Agents}
+  \field{pages}{3\bibrangedash 7}
+  \field{title}{Exploiting models of personality and emotions to control the
+  behavior of animated interactive agents}
+  \field{year}{2000}
+\endentry
+
+\entry{bandura1989human}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Bandura}{B.}%
+     {Albert}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {American Psychological Association}%
+  }
+  \strng{namehash}{BA1}
+  \strng{fullhash}{BA1}
+  \field{labelyear}{1989}
+  \field{sortinit}{B}
+  \field{number}{9}
+  \field{pages}{1175}
+  \field{title}{Human agency in social cognitive theory.}
+  \field{volume}{44}
+  \field{journaltitle}{American psychologist}
+  \field{year}{1989}
+\endentry
+
+\entry{bandura2011social}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Bandura}{B.}%
+     {Albert}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BA1}
+  \strng{fullhash}{BA1}
+  \field{labelyear}{2011}
+  \field{sortinit}{B}
+  \field{pages}{349\bibrangedash 373}
+  \field{title}{Social cognitive theory}
+  \field{volume}{2012}
+  \field{journaltitle}{Handbook of social psychological theories}
+  \field{year}{2011}
+\endentry
+
+\entry{cannon1927james}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Cannon}{C.}%
+     {Walter~B}{W.~B.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {JSTOR}%
+  }
+  \strng{namehash}{CWB1}
+  \strng{fullhash}{CWB1}
+  \field{labelyear}{1927}
+  \field{sortinit}{C}
+  \field{number}{1/4}
+  \field{pages}{106\bibrangedash 124}
+  \field{title}{The James-Lange theory of emotions: A critical examination and
+  an alternative theory}
+  \field{volume}{39}
+  \field{journaltitle}{The American journal of psychology}
+  \field{year}{1927}
+\endentry
+
+\entry{cattell1957personality}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Cattell}{C.}%
+     {Raymond~B}{R.~B.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {World Book Co.}%
+  }
+  \strng{namehash}{CRB1}
+  \strng{fullhash}{CRB1}
+  \field{labelyear}{1957}
+  \field{sortinit}{C}
+  \field{title}{Personality and motivation structure and measurement.}
+  \field{year}{1957}
+\endentry
+
+\entry{damasio1996somatic}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Damasio}{D.}%
+     {Antonio~R}{A.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Everitt}{E.}%
+     {Barry~J}{B.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bishop}{B.}%
+     {Dorothy}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {The Royal Society}%
+  }
+  \strng{namehash}{DAREBJBD1}
+  \strng{fullhash}{DAREBJBD1}
+  \field{labelyear}{1996}
+  \field{sortinit}{D}
+  \field{number}{1346}
+  \field{pages}{1413\bibrangedash 1420}
+  \field{title}{The somatic marker hypothesis and the possible functions of the
+  prefrontal cortex [and discussion]}
+  \field{volume}{351}
+  \field{journaltitle}{Philosophical Transactions of the Royal Society B:
+  Biological Sciences}
+  \field{year}{1996}
+\endentry
+
+\entry{digman1996curious}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Digman}{D.}%
+     {John~M}{J.~M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Guilford Press}%
+  }
+  \strng{namehash}{DJM1}
+  \strng{fullhash}{DJM1}
+  \field{labelyear}{1996}
+  \field{sortinit}{D}
+  \field{title}{The curious history of the five-factor model.}
+  \field{year}{1996}
+\endentry
+
+\entry{egges2004generic}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Egges}{E.}%
+     {Arjan}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kshirsagar}{K.}%
+     {Sumedha}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Magnenat-Thalmann}{M.-T.}%
+     {Nadia}{N.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Wiley Online Library}%
+  }
+  \strng{namehash}{EAKSMTN1}
+  \strng{fullhash}{EAKSMTN1}
+  \field{labelyear}{2004}
+  \field{sortinit}{E}
+  \field{number}{1}
+  \field{pages}{1\bibrangedash 13}
+  \field{title}{Generic personality and emotion simulation for conversational
+  agents}
+  \field{volume}{15}
+  \field{journaltitle}{Computer animation and virtual worlds}
+  \field{year}{2004}
+\endentry
+
+\entry{ekman1992argument}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Ekman}{E.}%
+     {Paul}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Taylor \& Francis}%
+  }
+  \strng{namehash}{EP1}
+  \strng{fullhash}{EP1}
+  \field{labelyear}{1992}
+  \field{sortinit}{E}
+  \field{number}{3-4}
+  \field{pages}{169\bibrangedash 200}
+  \field{title}{An argument for basic emotions}
+  \field{volume}{6}
+  \field{journaltitle}{Cognition \& emotion}
+  \field{year}{1992}
+\endentry
+
+\entry{ekman1979facial}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Ekman}{E.}%
+     {Paul}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Oster}{O.}%
+     {Harriet}{H.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Annual Reviews, Palo Alto CA, USA}%
+  }
+  \strng{namehash}{EPOH1}
+  \strng{fullhash}{EPOH1}
+  \field{labelyear}{1979}
+  \field{sortinit}{E}
+  \field{number}{1}
+  \field{pages}{527\bibrangedash 554}
+  \field{title}{Facial expressions of emotion}
+  \field{volume}{30}
+  \field{journaltitle}{Annual review of psychology}
+  \field{year}{1979}
+\endentry
+
+\entry{eysenck1953structure}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Eysenck}{E.}%
+     {Hans~Jurgen}{H.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Methuen}%
+  }
+  \strng{namehash}{EHJ1}
+  \strng{fullhash}{EHJ1}
+  \field{labelyear}{1953}
+  \field{sortinit}{E}
+  \field{title}{The structure of human personality.}
+  \field{year}{1953}
+\endentry
+
+\entry{fiske1949consistency}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Fiske}{F.}%
+     {Donald~W}{D.~W.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {American Psychological Association}%
+  }
+  \strng{namehash}{FDW1}
+  \strng{fullhash}{FDW1}
+  \field{labelyear}{1949}
+  \field{sortinit}{F}
+  \field{number}{3}
+  \field{pages}{329}
+  \field{title}{Consistency of the factorial structures of personality ratings
+  from different sources.}
+  \field{volume}{44}
+  \field{journaltitle}{The Journal of Abnormal and Social Psychology}
+  \field{year}{1949}
+\endentry
+
+\entry{freud1915unconscious}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Freud}{F.}%
+     {Sigmund}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{FS1}
+  \strng{fullhash}{FS1}
+  \field{labelyear}{1915}
+  \field{sortinit}{F}
+  \field{number}{1957}
+  \field{pages}{159\bibrangedash 215}
+  \field{title}{The unconscious}
+  \field{volume}{14}
+  \field{journaltitle}{Standard edition}
+  \field{year}{1915}
+\endentry
+
+\entry{goldberg1993structure}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Goldberg}{G.}%
+     {Lewis~R}{L.~R.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {American Psychological Association}%
+  }
+  \strng{namehash}{GLR1}
+  \strng{fullhash}{GLR1}
+  \field{labelyear}{1993}
+  \field{sortinit}{G}
+  \field{number}{1}
+  \field{pages}{26}
+  \field{title}{The structure of phenotypic personality traits.}
+  \field{volume}{48}
+  \field{journaltitle}{American psychologist}
+  \field{year}{1993}
+\endentry
+
+\entry{hendriks2011robot}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Hendriks}{H.}%
+     {Bram}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Meerbeek}{M.}%
+     {Bernt}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Boess}{B.}%
+     {Stella}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pauws}{P.}%
+     {Steffen}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sonneveld}{S.}%
+     {Marieke}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer}%
+  }
+  \strng{namehash}{HB+1}
+  \strng{fullhash}{HBMBBSPSSM1}
+  \field{labelyear}{2011}
+  \field{sortinit}{H}
+  \field{number}{2}
+  \field{pages}{187\bibrangedash 195}
+  \field{title}{Robot vacuum cleaner personality and behavior}
+  \field{volume}{3}
+  \field{journaltitle}{International Journal of Social Robotics}
+  \field{year}{2011}
+\endentry
+
+\entry{james1884emotion}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {James}{J.}%
+     {William}{W.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {JSTOR}%
+  }
+  \strng{namehash}{JW1}
+  \strng{fullhash}{JW1}
+  \field{labelyear}{1884}
+  \field{sortinit}{J}
+  \field{number}{34}
+  \field{pages}{188\bibrangedash 205}
+  \field{title}{What is an emotion?}
+  \field{volume}{9}
+  \field{journaltitle}{Mind}
+  \field{year}{1884}
+\endentry
+
+\entry{john1999big}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {John}{J.}%
+     {Oliver~P}{O.~P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Srivastava}{S.}%
+     {Sanjay}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Guilford}%
+  }
+  \strng{namehash}{JOPSS1}
+  \strng{fullhash}{JOPSS1}
+  \field{labelyear}{1999}
+  \field{sortinit}{J}
+  \field{number}{1999}
+  \field{pages}{102\bibrangedash 138}
+  \field{title}{The Big Five trait taxonomy: History, measurement, and
+  theoretical perspectives}
+  \field{volume}{2}
+  \field{journaltitle}{Handbook of personality: Theory and research}
+  \field{year}{1999}
+\endentry
+
+\entry{lange1885mechanism}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Lange}{L.}%
+     {Carl~Georg}{C.~G.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{LCG1}
+  \strng{fullhash}{LCG1}
+  \field{labelyear}{1885}
+  \field{sortinit}{L}
+  \field{pages}{672\bibrangedash 684}
+  \field{title}{The mechanism of the emotions}
+  \field{journaltitle}{The classical psychologists}
+  \field{year}{1885}
+\endentry
+
+\entry{lazarus1991emotion}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Lazarus}{L.}%
+     {Richard~S}{R.~S.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Oxford University Press on Demand}%
+  }
+  \strng{namehash}{LRS1}
+  \strng{fullhash}{LRS1}
+  \field{labelyear}{1991}
+  \field{sortinit}{L}
+  \field{title}{Emotion and adaptation}
+  \field{year}{1991}
+\endentry
+
+\entry{moors2009theories}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Moors}{M.}%
+     {Agnes}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Taylor \& Francis}%
+  }
+  \strng{namehash}{MA1}
+  \strng{fullhash}{MA1}
+  \field{labelyear}{2009}
+  \field{sortinit}{M}
+  \field{number}{4}
+  \field{pages}{625\bibrangedash 662}
+  \field{title}{Theories of emotion causation: A review}
+  \field{volume}{23}
+  \field{journaltitle}{Cognition and Emotion}
+  \field{year}{2009}
+\endentry
+
+\entry{norman1963toward}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Norman}{N.}%
+     {Warren~T}{W.~T.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {American Psychological Association}%
+  }
+  \strng{namehash}{NWT1}
+  \strng{fullhash}{NWT1}
+  \field{labelyear}{1963}
+  \field{sortinit}{N}
+  \field{number}{6}
+  \field{pages}{574}
+  \field{title}{Toward an adequate taxonomy of personality attributes:
+  Replicated factor structure in peer nomination personality ratings.}
+  \field{volume}{66}
+  \field{journaltitle}{The Journal of Abnormal and Social Psychology}
+  \field{year}{1963}
+\endentry
+
+\entry{reeves1997media}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Reeves}{R.}%
+     {Byron}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Nass}{N.}%
+     {Cliffor}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{RBNC1}
+  \strng{fullhash}{RBNC1}
+  \field{labelyear}{1997}
+  \field{sortinit}{R}
+  \field{number}{33}
+  \field{pages}{128}
+  \field{title}{The media equation: how people treat computers, television,?
+  new media like real people? places}
+  \field{volume}{5}
+  \field{journaltitle}{Computers and Mathematics with Applications}
+  \field{year}{1997}
+\endentry
+
+\entry{rogers1963toward}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Rogers}{R.}%
+     {Carl~R}{C.~R.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Sage Publications Sage CA: Thousand Oaks, CA}%
+  }
+  \strng{namehash}{RCR1}
+  \strng{fullhash}{RCR1}
+  \field{labelyear}{1963}
+  \field{sortinit}{R}
+  \field{number}{2}
+  \field{pages}{72\bibrangedash 92}
+  \field{title}{Toward a science of the person}
+  \field{volume}{3}
+  \field{journaltitle}{Journal of Humanistic Psychology}
+  \field{year}{1963}
+\endentry
+
+\entry{schachter1962cognitive}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Schachter}{S.}%
+     {Stanley}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Singer}{S.}%
+     {Jerome}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {American Psychological Association}%
+  }
+  \strng{namehash}{SSSJ1}
+  \strng{fullhash}{SSSJ1}
+  \field{labelyear}{1962}
+  \field{sortinit}{S}
+  \field{number}{5}
+  \field{pages}{379}
+  \field{title}{Cognitive, social, and physiological determinants of emotional
+  state.}
+  \field{volume}{69}
+  \field{journaltitle}{Psychological review}
+  \field{year}{1962}
+\endentry
+
+\entry{tapus2008user}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Tapus}{T.}%
+     {Adriana}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{\c{T}}{\u{a}}pu{\c{s}}}{{\c{T}}.}%
+     {Cristian}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Matari{\'c}}{M.}%
+     {Maja~J}{M.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer}%
+  }
+  \strng{namehash}{TATCMMJ1}
+  \strng{fullhash}{TATCMMJ1}
+  \field{labelyear}{2008}
+  \field{sortinit}{T}
+  \field{number}{2}
+  \field{pages}{169\bibrangedash 183}
+  \field{title}{User—robot personality matching and assistive robot behavior
+  adaptation for post-stroke rehabilitation therapy}
+  \field{volume}{1}
+  \field{journaltitle}{Intelligent Service Robotics}
+  \field{year}{2008}
+\endentry
+
+\entry{watson1913psychology}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Watson}{W.}%
+     {John~B}{J.~B.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Psychological Review Company}%
+  }
+  \strng{namehash}{WJB1}
+  \strng{fullhash}{WJB1}
+  \field{labelyear}{1913}
+  \field{sortinit}{W}
+  \field{number}{2}
+  \field{pages}{158}
+  \field{title}{Psychology as the behaviorist views it.}
+  \field{volume}{20}
+  \field{journaltitle}{Psychological review}
+  \field{year}{1913}
+\endentry
+
+\entry{woods2005robot}{inproceedings}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Woods}{W.}%
+     {Sarah}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dautenhahn}{D.}%
+     {Kerstin}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kaouri}{K.}%
+     {Christina}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Boekhorst}{B.}%
+     {Renete}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Koay}{K.}%
+     {Kheng~Lee}{K.~L.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {IEEE}%
+  }
+  \strng{namehash}{WS+1}
+  \strng{fullhash}{WSDKKCBRKKL1}
+  \field{labelyear}{2005}
+  \field{sortinit}{W}
+  \field{booktitle}{Humanoid Robots, 2005 5th IEEE-RAS International Conference
+  on}
+  \field{pages}{375\bibrangedash 380}
+  \field{title}{Is this robot like me? Links between human and robot
+  personality traits}
+  \field{year}{2005}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput
